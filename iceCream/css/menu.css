@@ -1,0 +1,677 @@
+span{
+    display: block;
+   display: flex;
+   justify-content: center;
+   padding-left: 1rem;
+   padding-top: 2rem;
+}
+.btn{
+    color: #fff;
+    position: relative;
+    left: 6rem;
+}
+Main h1{
+    margin-top: 3rem;
+    font-size: 4rem;
+    color: rgb(235, 150, 153);
+}
+h2{
+    font-size: 3rem;
+    color: rgb(235, 150, 153);
+}
+img:hover{
+    opacity: 0.5;
+}
+/*//////////////*/
+/* cones        */
+/*/////////////*/
+#cone img{
+    padding: 4rem 0 0 2rem;
+}
+.btnToffe{
+    position: relative;
+    left: 7rem;
+}
+.men-1{
+    width: 29.5%;
+}
+.men-2,
+.men-3,
+.men-4{
+    width: 29%;
+}
+.men-5,
+.men-7{
+    width: 48%;
+}
+.men-6, 
+.men-8{
+    width: 43%;
+}
+.men-9, 
+.men-12{
+    width: 70%;
+}
+.men-10, 
+.men-11{
+    width: 58%;
+}
+
+/*//////////////*/
+/* Sundae       */
+/*/////////////*/
+.sundaeMenu{
+    margin-top: 5rem;
+}
+#sundae img{
+    padding: 4rem 0 0 2rem;
+}
+.men-13, 
+.men-14,
+.men-16{
+    width: 95%;
+}
+.men-15{
+    width:100%;
+}
+.men-17{
+    width: 70%;
+}
+/*//////////////////*/
+/* Fruit sticks    */
+/*/////////////////*/
+.popsicleMenu{
+    margin-top: 5rem;
+}
+.popsicleMenu img{
+    padding: 4rem 0 0 1rem;
+}
+.popsicleMenu a{
+    position: relative;
+    left: 10rem;
+}
+.popsicleMenu .melb, .popsicleMenu .rainb{
+    position: relative;
+    left: 12rem;
+}
+.men-21{
+    width: 50%;
+}
+.men-22{
+    width: 50%;
+}
+.men-23{
+    width: 56.5%;
+}
+.men-24{
+    width: 65%;
+}
+.men-25{
+    width: 72%;
+}
+.men-26{
+    width: 64%;
+}
+/*//////////////*/
+/* Froyo       */
+/*/////////////*/
+.froyoMenu{
+   margin-top: 5rem;
+}
+.froyoMenu img{
+    padding: 4rem 0 0 1rem;
+}
+.froyoMenu a{
+    position: relative;
+    left: 10rem;
+}
+.men-27,
+.men-29,
+.men-28{
+    width: 65%;
+}
+.men-30{
+    width: 50%;
+}
+.men-31{
+    width: 50%;
+}
+.men-32{
+    width: 50%;
+}
+/*//////////////*/
+/* Sandwich     */
+/*/////////////*/
+.sandwichMenu{
+    margin-top: 5rem;
+}
+.sandwichMenu img{
+    padding: 4rem 0 0 1rem;
+}
+.sandwichMenu a{
+    position: relative;
+    left: 10rem;
+}
+.sandwichMenu .peanb{
+    position: relative;
+    left: 11rem;
+}
+.sand-1{
+    width: 80%;
+}
+.sand-2,
+.sand-3{
+    width: 90%;
+}
+.sand-4,
+.sand-5,
+.sand-6{
+    width: 70%;
+}
+
+/*/////////////////*/
+/* Media Query     */
+/*/////////////////*/
+
+    /*Tablet*/
+
+@media (max-width: 1280px) {
+    .sandwichMenu .chocob{
+        position: relative;
+        left: 12rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-26 a,
+    .sandwichMenu .sand-1 a{
+        position: relative;
+        left: 9rem;
+    }
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-25 a{
+        left: 11rem;
+    }
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a{
+        left: 10rem;
+    }
+}
+
+@media (max-width: 912px) {
+   .btn{
+        left: 5rem;
+    }
+    .coneMenu .men-9 a{
+        position: relative;
+        left: 6rem;
+    }
+    .coneMenu .men-10 a{
+        left: 4rem;
+    }
+    .men-16{
+        width: 100%;
+    }
+    .men-17{
+        width: 90%;
+    }
+    .sundaeMenu .men-17 a{
+        position: relative;
+        left: 5rem;
+    }
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .sandwichMenu .sand-1 a{
+        position: relative;
+        left: 7rem;
+    }
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-25 a{
+        position: relative;
+        left: 9rem;
+    }
+    .popsicleMenu .men-26 a,
+    .sandwichMenu .sand-2 a{
+        position: relative;
+        left: 8rem;
+    }
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        position: relative;
+        left: 8rem;
+    }
+}
+
+@media(max-width: 820px) {
+    .btn{
+        left: 4rem;
+    }
+    .coneMenu .men-9 a{
+        left: 5rem;
+    }
+    .coneMenu .men-10 a{
+        left: 3rem;
+    }
+    .sundaeMenu .men-17 a{
+        left: 3rem;
+        top: 1rem;
+    }
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .popsicleMenu .men-26 a,
+    .sandwichMenu .sand-1 a{
+        left: 6rem;
+    }
+    .popsicleMenu .men-23 a,
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 7rem;
+    }
+    .popsicleMenu .men-25 a{
+        left: 8rem;
+    }
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a{
+        left: 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn{
+        left: 3rem;
+    }
+    .coneMenu .men-9 a{
+        left: 4rem;
+    }
+    .coneMenu .men-10 a,
+    .coneMenu .men-11 a {
+        position: relative;
+        left: 2rem;
+    }
+    .men-17{
+        width: 100%;
+    }
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-26 a,
+    .sandwichMenu .sand-1 a{
+        left: 5rem;
+    }
+    .popsicleMenu .men-25 a,
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 6rem;
+    }
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a{
+        left: 6rem;
+    }
+    .froyoMenu .men-30 a{
+        top: 0.4rem;
+    }
+    
+}
+
+
+     /*Mobile*/
+
+
+@media (max-width: 540px) {
+    .hamburger span{
+        padding: 0;
+    }
+    .coneMenu{
+        height: 978rem;
+    }
+    .coneMenu .flex,
+    .sundaeMenu .flex,
+    .popsicleMenu .flex,
+    .froyoMenu .flex,
+    .sandwichMenu .flex{
+        flex-direction: column;
+    }
+    .coneMenu img{
+        width: 100%;
+    }
+    .men-1,
+    .men-2,
+    .men-3,
+    .men-4,
+    .men-5,
+    .men-6,
+    .men-7,
+    .men-8,
+    .men-9,
+    .men-10,
+    .men-11,
+    .men-12,
+    .men-21,
+    .men-22,
+    .men-23,
+    .men-24,
+    .men-25,
+    .men-26,
+    .men-27,
+    .men-28,
+    .men-29,
+    .men-30,
+    .men-31,
+    .men-32,
+    .sand-1{
+        width: 100%;
+    }
+    .btn,
+    .coneMenu .men-9 a,
+    .coneMenu .men-10 a,
+    .coneMenu .men-11 a,
+    .sundaeMenu .men-17 a,
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .popsicleMenu .men-25 a,
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a,
+    .sandwichMenu .sand-1 a{
+        left: 17rem;
+    }
+    .sundaeMenu{
+        height: 660rem;
+    }
+    .sundaeMenu .men-13 a,
+    .sundaeMenu .men-14 a,
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-26 a{
+        left: 16rem;
+    }
+    .popsicleMenu {
+        height: 508rem;
+    }
+    .froyoMenu {
+        height: 520rem;
+    }
+    .sandwichMenu{
+        height: 470rem;
+    }
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 15rem;
+    }
+    .sand-4,
+    .sand-5,
+    .sand-6{
+        width: 90%;
+    }
+    .socials{
+        position: relative;
+        top: -1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 414px) {
+    main .featured{
+        height: 50rem;
+    }
+    .btn,
+    .coneMenu .men-9 a,
+    .coneMenu .men-10 a,
+    .coneMenu .men-11 a,
+    .sundaeMenu .men-17 a,
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .popsicleMenu .men-25 a,
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a,
+    .sandwichMenu .sand-1 a{
+        left: 10rem;
+    }
+    .coneMenu{
+        height: 760rem;
+    }
+    .sundaeMenu .men-13 a,
+    .sundaeMenu .men-14 a,
+    .popsicleMenu .men-26 a,
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 9rem;
+    }
+    .sundaeMenu{
+        height: 520rem;
+    }
+    .popsicleMenu {
+        height: 400rem;
+    }
+    .froyoMenu {
+        height: 412rem;
+    }
+    .sandwichMenu{
+        height: 370rem;
+    }
+    footer .container{
+        position: relative;
+        left: -1rem;
+    }
+    .socials{
+        position: relative;
+        top: -4rem;
+        font-size: 1rem;
+    }
+    
+}
+@media(max-width: 393px) {
+    .btn,
+    .coneMenu .men-9 a,
+    .coneMenu .men-10 a,
+    .coneMenu .men-11 a,
+    .sundaeMenu .men-17 a,
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .popsicleMenu .men-25 a,
+    .popsicleMenu .men-26 a,
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a,
+    .sandwichMenu .sand-1 a{
+        left: 9rem;
+    }
+    .coneMenu{
+        height: 730rem;
+    }
+    .sundaeMenu .men-13 a,
+    .sundaeMenu .men-14 a,
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 8rem;
+    }
+    .sundaeMenu{
+        height: 495rem;
+    }
+    .popsicleMenu {
+        height: 380rem;
+    }
+    .froyoMenu {
+        height: 392rem;
+    }
+    .sandwichMenu{
+        height: 350rem;
+    }
+    .socials{
+        position: relative;
+        top: -6rem;
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 375px) {
+    .featured .cone,
+    .featured .popsicle{
+        position: relative;
+        left: -1rem;
+    }
+    .featured .sundae,
+    .featured .yogurt,
+    .featured .sandwich{
+        position: relative;
+        left: 1rem;
+    }
+    .featured .popsicle{
+        top: 1.5rem;
+    }
+    .coneMenu{
+        position: relative;
+        left: 1.5rem;
+        height: 700rem;
+    }
+    .sundaeMenu{
+        position: relative;
+        left: 1.5rem;
+        height: 475rem;
+    }
+    .popsicleMenu{
+        position: relative;
+        left: 1.5rem;
+        height: 368rem;
+    }
+    .froyoMenu{
+        position: relative;
+        left: 1.5rem;
+        height: 378rem;
+    }
+    .sandwichMenu{
+        height: 345rem;
+        position: relative;
+        left: 1.5rem;
+    }
+    
+}
+@media(max-width: 280px) {
+    header .logo{
+        position: relative;
+        top: 1rem;
+        font-size: 2rem;
+        left: -2rem;
+    }
+    .container > .menu{
+        padding-left: 12rem;
+    }
+    .featured .cone,
+    .featured .popsicle{
+        position: relative;
+        left: 4rem;
+    }
+    .featured .yogurt,
+    .featured .sandwich{
+        position: relative;
+        left: 4rem;
+    }
+    .featured .sundae{
+        position: relative;
+        left: 6rem;
+    }
+    .coneMenu{
+        position: relative;
+        left: 5rem;
+        height: 535rem;
+    }
+    .sundaeMenu{
+        position: relative;
+        left: 5rem;
+        height: 365rem;
+    }
+    .popsicleMenu{
+        position: relative;
+        left: 5rem;
+        height: 285rem;
+    }
+    .froyoMenu{
+        position: relative;
+        left: 5rem;
+        height: 290rem;
+    }
+    .sandwichMenu{
+        position: relative;
+        left: 5rem;
+        height: 265rem;
+    }
+    .btn,
+    .coneMenu .men-9 a,
+    .coneMenu .men-10 a,
+    .coneMenu .men-11 a,
+    .sundaeMenu .men-13 a,
+    .sundaeMenu .men-14 a,
+    .sundaeMenu .men-17 a,
+    .popsicleMenu .men-21 a,
+    .popsicleMenu .men-23 a,
+    .popsicleMenu .men-22 a,
+    .popsicleMenu .men-24 a,
+    .popsicleMenu .men-25 a,
+    .popsicleMenu .men-26 a,
+    .froyoMenu .men-27 a,
+    .froyoMenu .men-28 a,
+    .froyoMenu .men-29 a,
+    .froyoMenu .men-30 a,
+    .froyoMenu .men-31 a,
+    .froyoMenu .men-32 a,
+    .sandwichMenu .sand-1 a{
+        left: 4rem;
+    }
+    .sandwichMenu .sand-2 a,
+    .sandwichMenu .sand-3 a,
+    .sandwichMenu .sand-4 a,
+    .sandwichMenu .sand-5 a,
+    .sandwichMenu .sand-6 a{
+        left: 3rem;
+    }
+   
+}
+
+
